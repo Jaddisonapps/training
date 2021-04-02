@@ -1,0 +1,17 @@
+.header {
+	display: flex; 
+	align-content: center; 
+	justify-content: center; 
+	flex-direction: column; 
+	text-align: center;
+}
+.band-list {
+	display: flex; 
+	flex-direction: column;
+}
+.band-list-item {
+	display: flex; 
+	align-items: center; 
+	justify-content: center;
+}
+
