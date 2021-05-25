@@ -1,0 +1,47 @@
+/* headlines with lines */
+.decorated{
+     overflow: hidden;
+     text-align: center;
+ }
+.decorated > span{
+    position: relative;
+    display: inline-block;
+}
+.decorated > span:before, .decorated > span:after{
+    content: '';
+    position: absolute;
+    top: 50%;
+    border-bottom: 2px solid;
+    width: 100vw;
+    margin: 0 20px;
+}
+.decorated > span:before{
+    right: 100%;
+}
+.decorated > span:after{
+    left: 100%;
+}
+
+
+
+
+
+
+.rune-section {
+    display: flex;
+    flex-direction: row;
+    padding: 5rem;
+}
+
+
+
+.rune-line {
+    font-size: 0;
+    height: 0px;
+    line-height: 0;
+    width: 50%;
+    border-bottom: 2px solid #ffffff61;
+    margin: .8rem .8rem;
+}
+
+    

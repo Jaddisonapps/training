@@ -1,0 +1,82 @@
+
+
+
+
+
+
+
+body {
+background-image: url("images/background-8.jpeg");
+
+
+
+}
+
+
+
+
+
+
+
+.bands-section {
+	min-height: 100vh;
+    /*width: 80%;*/
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+
+.title {
+	font-size: 1rem;
+	margin: 5rem 0rem 0rem;
+}
+
+.faq {
+	max-width: 80vw;
+    margin: 1rem;
+    padding: 1rem;
+    /*border-bottom: 2px solid #fff;*/
+    cursor: pointer;
+    background-color: #2a2a2acc;
+}
+
+.question {
+	display: flex;
+    /* flex-direction: column; */
+    justify-content: initial;
+    align-items: center;
+}
+
+.question h3 {
+	font-size: .9rem;
+	margin-right: 3rem;
+	margin-left: 1rem;
+}
+
+.band-details {
+	display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+
+.answer {
+	max-height: 0;
+	overflow: hidden;
+	transition: max-height 1.9s ease;
+}
+
+.answer p {
+	padding: 1rem 0 2rem;
+	line-height: 1.5rem;
+	font-size: .7rem;
+}
+
+.faq.active .answer {
+	max-height: 300px;
+}
+

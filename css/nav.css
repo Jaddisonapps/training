@@ -10,6 +10,7 @@ nav {
 	position: fixed;
 	top: 0;
 	width: 100%;
+	z-index: 1;`
 }
 
 .nav-links {
@@ -57,7 +58,7 @@ nav {
 
 
 a {
-    color: #9E9E9E;
+    color: white;
     text-decoration: none;
 }
 

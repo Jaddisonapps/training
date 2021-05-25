@@ -3,7 +3,7 @@
 // })
 
 
-
+// Navigation js
 
 const navSlide = () => {
 	const burger = document.querySelector('.burger');
@@ -32,3 +32,13 @@ const navSlide = () => {
 }
 
 navSlide();
+
+// Band accordion js
+
+const faqs = document.querySelectorAll(".faq");
+
+faqs.forEach((faq) => {
+	faq.addEventListener("click", () => {
+		faq.classList.toggle("active");
+	});
+});
