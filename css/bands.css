@@ -35,7 +35,7 @@ background-image: url("images/background-8.jpeg");
 }
 
 .faq {
-	max-width: 80vw;
+	max-width: 65vw;
     margin: 1rem;
     padding: 1rem;
     /*border-bottom: 2px solid #fff;*/
@@ -51,7 +51,7 @@ background-image: url("images/background-8.jpeg");
 }
 
 .question h3 {
-	font-size: .9rem;
+	font-size: 1.5rem;
 	margin-right: 3rem;
 	margin-left: 1rem;
 }
@@ -73,7 +73,7 @@ background-image: url("images/background-8.jpeg");
 .answer p {
 	padding: 1rem 0 2rem;
 	line-height: 1.5rem;
-	font-size: .7rem;
+	font-size: 1rem;
 }
 
 .faq.active .answer {

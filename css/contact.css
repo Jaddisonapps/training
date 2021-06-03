@@ -82,7 +82,7 @@ body{
 
 
 .btn {
-    background: #3c5d47;
+    background: #4a4a4a;
     text-align: center;
     padding: .5rem;
     color: #fff;
@@ -96,8 +96,8 @@ body{
 
 
 .btn:hover {
-  background-color: #458c5c;
-  border-color: #458c5c;
+  background-color: #3c5d47;
+  border-color: #3c5d47;
 }
 
 
