@@ -31,10 +31,20 @@
     transition: 1s;
 }
 
-.image-crop:hover {
+/*.image-crop:hover {
 	height: 52vh;
 	
+}*/
+
+.news-text {
+	font-size: 1rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 0 5rem;
 }
+
 
 
 .news-row {

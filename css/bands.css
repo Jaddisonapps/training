@@ -51,7 +51,7 @@ background-image: url("images/background-8.jpeg");
 }
 
 .question h3 {
-	font-size: 1.5rem;
+	font-size: 1rem;
 	margin-right: 3rem;
 	margin-left: 1rem;
 }
@@ -73,7 +73,7 @@ background-image: url("images/background-8.jpeg");
 .answer p {
 	padding: 1rem 0 2rem;
 	line-height: 1.5rem;
-	font-size: 1rem;
+	font-size: .8rem;
 }
 
 .faq.active .answer {
