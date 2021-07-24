@@ -8,15 +8,20 @@
 body {
 background-image: url("images/background-8.jpeg");
 
-
-
 }
 
 
+.band-scroll {
+    
+   padding-top: 40px;
+  margin-top: -40px;
+  display: inline-block;
+}
 
 
-
-
+.band-image {
+	width:15%;
+}
 
 .bands-section {
 	min-height: 100vh;
@@ -35,7 +40,7 @@ background-image: url("images/background-8.jpeg");
 }
 
 .faq {
-	max-width: 65vw;
+	width: 65vw;
     margin: 1rem;
     padding: 1rem;
     /*border-bottom: 2px solid #fff;*/
@@ -78,5 +83,44 @@ background-image: url("images/background-8.jpeg");
 
 .faq.active .answer {
 	max-height: 300px;
+}
+
+
+
+
+
+@media(max-width: 768px) {
+	.band-image {
+	width:20%;
+}
+	.faq {
+	width: 85vw;
+    margin: 1rem;
+    padding: 1.5rem 1rem;
+    /*border-bottom: 2px solid #fff;*/
+    cursor: pointer;
+    background-color: #2a2a2acc;
+	}
+
+	.question h3 {
+	font-size: .8rem;
+	}
+
+	.answer p {
+	padding: 1rem 0 2rem;
+	line-height: 1.5rem;
+	font-size: .8rem;
+	}
+
+	.bands-section {
+	min-height: unset;
+    margin: 0 auto;
+    padding: 1rem 0 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+	}
+
+
 }
 

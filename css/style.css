@@ -79,6 +79,7 @@ nav {
 	float: left;
 	padding: 15px;
 	margin-left: 20px;
+	z-index: 2;
 }
 
 .div-style {
@@ -90,6 +91,14 @@ nav {
 	color: #F1F1F1;
 	margin: 0;
 	font-family: 'Oswald', sans-serif;
+}
+
+.background-image {
+	background-size: 100% 25%;
+	position: fixed; 
+	z-index: -1; 
+	opacity: .2; 
+	margin-top: -4.5rem;
 }
 
 .hr {
@@ -131,6 +140,10 @@ nav {
 	color: white;
 }
 
+.bandcamp-link {
+	margin-left: 85%;
+}
+
 .container {
 	display: -webkit-box;
 	display: flex;
@@ -170,7 +183,14 @@ nav {
 	padding: 2rem;
 }
 
+.info-logo {
+	width: 30%; 
+	margin:4rem 0rem;
+}
 
+.studio-image {
+	width: 100%;
+}
 
 
 #content-desktop {
@@ -194,6 +214,15 @@ a {
 		position: absolute;
 		bottom: 40%;
 		left: 16px;
+	}
+
+	.background-image {
+		background-size: 100% 25%;
+		position: fixed; 
+		z-index: -1; 
+		opacity: .2; 
+		margin-top: -4.5rem;
+	    left: -20rem;
 	}
 }
 
@@ -226,6 +255,18 @@ a {
 	.burger {
 		display: block;
 	}
+
+	.background-image {
+		background-size: 100% 25%;
+		width: unset;
+		position: fixed; 
+		z-index: -1; 
+		opacity: .2; 
+		margin-top: -4.5rem;
+	    left: -20rem;
+	}
+
+
 	.news-date {
 		position: absolute;
 		bottom: 15%;
@@ -243,6 +284,41 @@ a {
 	.div-style {
 		margin: none;
 	}
+
+	.info-style {
+		 width: 85vw;
+	}
+
+	.info-style p {
+		max-width: 75vw;
+	    text-align: center;
+	    margin-bottom: 2rem;
+	    padding: 1rem 0 1rem;
+
+	}
+
+	.info-logo {
+		width: 30%; 
+		margin:1rem 0rem;
+	}
+
+	.bandcamp-link {
+		margin-left: 0;
+	}
+
+	.container {
+		all: unset;
+	}
+
+	.main-footer .col {
+		padding: .5rem 0 .5rem;
+	}
+
+	.studio-image {
+		width: 100%;
+		padding: 0 0 1rem;
+}
+
 }
 
 .nav-active {

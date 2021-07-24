@@ -44,4 +44,26 @@
     margin: .8rem .8rem;
 }
 
+.padding-left {
+    padding-left: 20%;
+}
     
+.padding-right {
+    padding-right: 20%;
+}
+
+
+@media(max-width: 768px) {
+
+    .rune-section {
+        padding: 3rem 0;
+    }
+
+    .padding-left {
+        padding-left: 10%;
+}
+    
+    .padding-right {
+        padding-right: 10%;
+    }
+}

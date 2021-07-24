@@ -82,7 +82,7 @@ body{
 
 
 .btn {
-    background: #4a4a4a;
+    background: #3c5d47;
     text-align: center;
     padding: .5rem;
     color: #fff;
@@ -92,12 +92,13 @@ body{
     left: 37%;
     position: relative;
     transition: 0.5s;
+    border: none;
 }
 
 
 .btn:hover {
-  background-color: #3c5d47;
-  border-color: #3c5d47;
+  background-color: #2e4837;
+  border-color: #2e4837;
 }
 
 
@@ -112,4 +113,24 @@ body{
   .msg{
     width: 100%;
   }
+
+  .contact-title {
+    padding: 0;
+  }
+
+  .contact-style {
+    padding: 0 0 4rem;
+
+  }
+
+  .wrapper .contact-title h1{
+  color: white;
+  text-align: center;
+  font-size: .8rem;
+  }
+
+  .wrapper {
+    width: 75%;
+  }
+
 }

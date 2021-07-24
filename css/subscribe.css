@@ -67,10 +67,12 @@
 
 
 
+@media(max-width: 768px) {
+  .newsletter {
+    padding: 0;
+  }
 
-
-
-
+}
 
 
 

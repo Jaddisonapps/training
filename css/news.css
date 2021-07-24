@@ -1,34 +1,45 @@
 
 
 .news-section {
-	background-color: #2a2a2acc;
-	width: 65vw;
-	display: flex;
-	flex-direction: column;
-	/*align-items: center;*/
-	/*margin: 10rem 5rem 5rem 5rem;*/
-	margin: 9rem auto;
-	margin-bottom: 1rem;
-    /* width: 300px; */
-    text-align: center;
-    padding: 4rem 4rem 3rem;
+    margin-top: 8rem;
+    flex-direction: column;
+
 }
 
 
 .news-image {
-	display: inline-block;
-    vertical-align: top;
-    width: 100%;
-    /*object-fit: none;*/
+	width: 40%;
+    margin: 0 auto;
+    display: flex;
+    -moz-box-shadow: 0px 0px 39px #ffffff69;
+    -webkit-box-shadow: 0px 0px 39px #ffffff69;
+    box-shadow: 0px 0px 39px #ffffff69;
+
+}
+
+.listen-now {
+    background: #3c5d47;
+    padding: .5rem 2rem;
+    color: #fff;
+    cursor: pointer;
+    text-transform: uppercase;
     position: relative;
-    top: -40px;
+    transition: 0.5s;
+    border: none;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+}
+
+.listen-now:hover {
+    background-color: #3ca05e;
 }
 
 .image-crop {
-	height: 40vh;
-    overflow: hidden;
+	/*height: 58vh;*/
+    /*overflow: hidden;*/
     /*border-bottom: 2px solid #ffffff61;*/
-    transition: 1s;
+    /*transition: 1s;*/
 }
 
 /*.image-crop:hover {
@@ -38,11 +49,10 @@
 
 .news-text {
 	font-size: 1rem;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    padding: 0 5rem;
+    padding: 1rem;
+    text-align: center;
+    width: 85vw;
+    margin: 0 auto;
 }
 
 
@@ -55,8 +65,15 @@
     top: -1rem;
 }
 
+
+.listen-button {
+    background-color: red;
+}
+
+
 .news-rune-section {
     display: flex;
+    margin-top: -4px;
     /*flex-direction: row;
     padding: 2rem 1rem .5rem 1rem;
     margin-left: 40%;
@@ -76,3 +93,39 @@
     /* border-bottom: 2px solid white; */
     margin-top: .9rem;
 }
+
+
+
+@media(max-width: 768px) {
+    .news-text {
+        font-size: .8rem;
+        padding: 1.5rem 0 1.5rem;
+    }
+
+    .news-image {
+        width: 65vw;
+    }
+
+    .listen-now {
+        background: #3c5d47;
+        padding: 0.3rem 1.3rem;
+        color: #fff;
+        cursor: pointer;
+        text-transform: uppercase;
+        position: relative;
+        transition: 0.5s;
+        border: none;
+        text-align: center;
+        margin: 0 auto;
+        display: block;
+        font-size: 0.6rem;
+}
+
+
+}
+
+
+
+
+
+
