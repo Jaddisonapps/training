@@ -72,7 +72,7 @@ background-image: url("images/background-8.jpeg");
 .answer {
 	max-height: 0;
 	overflow: hidden;
-	transition: max-height 1.9s ease;
+	transition: max-height 1s ease;
 }
 
 .answer p {
@@ -82,7 +82,7 @@ background-image: url("images/background-8.jpeg");
 }
 
 .faq.active .answer {
-	max-height: 300px;
+	max-height: 400px;
 }
 
 
@@ -90,9 +90,10 @@ background-image: url("images/background-8.jpeg");
 
 
 @media(max-width: 768px) {
+	
 	.band-image {
 	width:20%;
-}
+	}
 	.faq {
 	width: 85vw;
     margin: 1rem;
@@ -104,6 +105,12 @@ background-image: url("images/background-8.jpeg");
 
 	.question h3 {
 	font-size: .8rem;
+	}
+
+	.answer {
+	max-height: 0;
+	overflow: hidden;
+	transition: max-height 1s ease;
 	}
 
 	.answer p {
